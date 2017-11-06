@@ -1,5 +1,5 @@
 # psHelloWorld
-Module example for OXID 6.
+Module example for OXID 6 using composer merge plugin, instaed installing via packagist/repository/file.
 
 ## Features
 - Overwrites startpage meta title.
