@@ -1,0 +1,24 @@
+{
+  "name": "proudcommerce/pshelloworld",
+  "description": "Proud Sourcing Demo-Modul",
+  "type": "oxideshop-module",
+  "keywords": [
+    "oxid",
+    "modules",
+    "demo"
+  ],
+  "homepage": "https://github.com/proudcommerce/psHelloWorld",
+  "license": [
+    "GNU"
+  ],
+  "extra": {
+    "oxideshop": {
+      "target-directory": "ps/pshelloworld"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "ProudSourcing\\HelloWorld\\": "../../../modules/ps/pshelloworld"
+    }
+  }
+}
