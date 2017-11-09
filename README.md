@@ -1,5 +1,7 @@
 # psHelloWorld
 Module example for OXID 6 using composer merge plugin, instaed installing via packagist/repository/file.
+For installation without packagist, eg. you have one big module repository with all your modules see [master](https://github.com/proudcommerce/psHelloWorld) branch.
+
 
 ## Features
 - Overwrites startpage meta title.
@@ -8,10 +10,6 @@ Module example for OXID 6 using composer merge plugin, instaed installing via pa
 ```
 composer require proudcommerce/pshelloworld:dev-packagist
 ```
-
-For installation without packagist, eg. you have one big module repository with all your modules
-you can use composer merge plugin and you composer.json ([master](https://github.com/proudcommerce/psHelloWorld)).
-
 ## License
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
