@@ -18,7 +18,7 @@
   },
   "autoload": {
     "psr-4": {
-      "ProudSourcing\\HelloWorld\\": "../../../modules/ps/pshelloworld"
+      "ProudSourcing\\HelloWorld\\": "../../../source/modules/ps/pshelloworld"
     }
   }
 }

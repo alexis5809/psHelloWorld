@@ -5,27 +5,13 @@ Module example for OXID 6 using composer merge plugin, instaed installing via pa
 - Overwrites startpage meta title.
 
 ## Installation
-1. Install composer merge plugin
 ```
-composer require wikimedia/composer-merge-plugin
-```
-2. Add module to shop composer.json
-
-```
-  "extra": {
-    "merge-plugin": {
-      "include": [
-        "source/modules/ps/pshelloworld/composer.json"
-      ]
-    }
-  }
+composer require proudcommerce/pshelloworld:dev-packagist
 ```
 
-3. Update composer installation
-```
-composer update
-```
-	
+For installation without packagist, eg. you have one big module repository with all your modules
+you can use composer merge plugin and you composer.json ([master](https://github.com/proudcommerce/psHelloWorld)).
+
 ## License
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
