@@ -25,6 +25,8 @@ composer require wikimedia/composer-merge-plugin
 ```
 composer update
 ```
+
+For installation without merge plugin see [packagist](https://github.com/proudcommerce/psHelloWorld/tree/packagist) branch.
 	
 ## License
     This program is free software: you can redistribute it and/or modify
