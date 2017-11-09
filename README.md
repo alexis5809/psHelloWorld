@@ -1,5 +1,6 @@
 # psHelloWorld
 Module example for OXID 6 using composer merge plugin, instaed installing via packagist/repository/file.
+For installation without merge plugin see [packagist](https://github.com/proudcommerce/psHelloWorld/tree/packagist) branch.
 
 ## Features
 - Overwrites startpage meta title.
@@ -25,8 +26,6 @@ composer require wikimedia/composer-merge-plugin
 ```
 composer update
 ```
-
-For installation without merge plugin see [packagist](https://github.com/proudcommerce/psHelloWorld/tree/packagist) branch.
 	
 ## License
     This program is free software: you can redistribute it and/or modify
